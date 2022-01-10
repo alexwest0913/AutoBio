@@ -1,0 +1,104 @@
+@import url("index.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.about-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.p1 {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.7;
+  font-weight: 100;
+  max-width: 90ch;
+}
+
+.p2 {
+  margin: 0px 0px 20px 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.7;
+  font-weight: 100;
+  max-width: 90ch;
+}
+
+.about-logo-div {
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  height: auto;
+  border-bottom: 1px solid lightgrey;
+}
+
+.about-logo-img {
+  height: 50px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.about-logo-name {
+  top: 30px;
+  color: #00acd5;
+  font-size: 40px;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+}
+
+.about-social-heading {
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.about-links-div {
+  display: flex;
+  margin: 30px;
+  list-style: none;
+}
+
+.about-links-div li a{
+  padding: 0px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #00acd5;
+}
+
+.about-twitter {
+  border-left: 1px solid grey;
+}
+
+.about-instagram {
+  border-left: 1px solid grey;
+}
+
+.about-nav li:hover {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  height: 150px;
+  justify-content: space-between;
+}
