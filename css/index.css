@@ -116,10 +116,6 @@ nav li:hover {
 }
 
 @media (max-width: 850px) {
-  html {
-    overflow-x: hidden;
-  }
-
   nav {
     background-color: #ffffff;
     border-bottom: none;
@@ -139,9 +135,9 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    right: -700px;
-    transition: right .8s;
+    width: 110%;
+    left: -1000px;
+    transition: left .6s;
     z-index: 100;
   }
 
@@ -161,14 +157,14 @@ nav li:hover {
 }
 
 .nav-active-in {
-  right: -10px;
+  left: -10px;
 }
 
 
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(-50px);
   }
 
   to {
